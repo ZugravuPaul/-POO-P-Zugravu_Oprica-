@@ -1,0 +1,16 @@
+C:\Users\zugravu.paul\source\repos\POO\ATMLibrary\ATMLibrary\bin\Debug\ATMLibrary.dacpac
+C:\Users\zugravu.paul\source\repos\POO\ATMLibrary\ATMLibrary\bin\Debug\ATMLibrary.dll
+C:\Users\zugravu.paul\source\repos\POO\ATMLibrary\ATMLibrary\bin\Debug\ATMLibrary.pdb
+C:\Users\zugravu.paul\source\repos\POO\ATMLibrary\ATMLibrary\obj\Debug\ATMLibrary.sqlproj.AssemblyReference.cache
+C:\Users\zugravu.paul\source\repos\POO\ATMLibrary\ATMLibrary\obj\Debug\ATMLibrary.dll
+C:\Users\zugravu.paul\source\repos\POO\ATMLibrary\ATMLibrary\obj\Debug\ATMLibrary.pdb
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\bin\Debug\ATMLibrary.dacpac
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\bin\Debug\ATMLibrary.dll
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\bin\Debug\ATMLibrary.pdb
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\obj\Debug\ATMLibrary.sqlproj.AssemblyReference.cache
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\obj\Debug\ATMLibrary.dll
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\obj\Debug\ATMLibrary.pdb
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\obj\Debug\Model.xml
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\obj\Debug\refactor.xml
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\obj\Debug\postdeploy.sql
+C:\Users\zugravu.paul\source\repos\ATMLibrary\ATMLibrary\obj\Debug\predeploy.sql
