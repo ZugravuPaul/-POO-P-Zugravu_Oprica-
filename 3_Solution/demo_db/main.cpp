@@ -25,7 +25,8 @@ using namespace std;
 int main() {
 
 	DAL& db = DAL::getInstance();
-
+	//User user("andra", "andra", "andra", "parola", "mail");
+	//db.createUser(user);
 
 	WSADATA wsaData;
 	int iResult;
@@ -105,7 +106,8 @@ int main() {
 		}
 
 		// Receive until the peer shuts down the connection
-		do {
+		while(true) {
+			memset(recvbuf, 0, recvbuflen);
 			iResult = recv(ClientSocket, recvbuf, recvbuflen, 0);
 			if (iResult > 0) {
 				printf("Bytes received: %d\n", iResult);
@@ -113,29 +115,29 @@ int main() {
 				printf("%s\n", recvbuf);
 
 				string data_received = recvbuf;
+				memset(recvbuf, 0, recvbuflen);
 				//recvbuf va contine raspunsul la query
 				strcpy(recvbuf, js.find_request(data_received).c_str());
-
+				
 
 				iSendResult = send(ClientSocket, recvbuf, iResult, 0);
 				if (iSendResult == SOCKET_ERROR) {
 					printf("send failed with error: %d\n", WSAGetLastError());
-					closesocket(ClientSocket);
-					WSACleanup();
-					return 1;
+					break;
 				}
 				printf("Bytes sent: %d\n", iSendResult);
 			}
-			else if (iResult == 0)
+			else if (iResult == 0) {
 				printf("Connection closed by the client.\n");
+				break;
+			}
 			else {
 				printf("recv failed with error: %d\n", WSAGetLastError());
-				closesocket(ClientSocket);
-				WSACleanup();
-				return 1;
+				break;
 			}
-		} while (iResult > 0);
-
+		}
+		closesocket(ClientSocket);
+		printf("Client disconnected.\n");
 	}
 	closesocket(ListenSocket);
 	WSACleanup();

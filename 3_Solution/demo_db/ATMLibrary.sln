@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATMLibrary", "demo_db.vcxproj", "{2CC50863-38D8-4CE6-A4E8-55E14C20E03A}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ATMLibrary", "..\..\..\source\repos\ATMLibrary\ATMLibrary\ATMLibrary.sqlproj", "{4483B524-3B93-4112-BB8C-7686EB9EA44B}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ATMLibrary", "..\ATMLibrary\ATMLibrary\ATMLibrary.sqlproj", "{4483B524-3B93-4112-BB8C-7686EB9EA44B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
